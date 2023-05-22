@@ -1,0 +1,151 @@
+/* CSS files ass styling rules to your content */
+
+
+@import
+url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+html{
+	background-color: #c39b64;
+}
+
+.wrapper{
+	height:auto;
+	display:grid;
+	grid-template-rows: 200px 50px 500px 5%;
+	grid-template-columns: 1fr 1fr 1fr 2fr 2fr 1fr;
+	grid-gap: 20px;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.box_1{
+	background-image: url("../images/KCC banner 2.jpg");
+	background-color:#67b13d;
+	padding-left 15px;
+	grid-column: 2/6;
+	grid-row: 1;
+	border-radius: 5px;
+}
+
+#slideshow {
+
+position:relative;
+
+
+}
+#slideshow div{
+position:absolute;
+
+
+}
+
+.nav{
+	background-color:#aed8e3;
+	grid-column: 2/6;
+	grid-row: 2;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	z-index: 4;
+	border-radius: 5px;
+}
+
+.nav a{
+	float: left;
+	font-size: 16px;
+	color: #502d16;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+
+.dropdown{
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn{
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: #aed8e3;
+	background-color: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+	margin: 0;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #aed8e3;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.dropdown-content a{
+	float: none;
+	color: black;
+	background-color:#aed8e3;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.box_3{
+	background-color:#502d16;
+	grid-column: 2/5;
+	grid-row: 3;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.content_3{
+	background-color: #aed8e3;
+	grid-column: 1/5;
+	padding: 10px;
+	z-index: 2;
+	border-radius: 5px;
+}
+
+
+.sidebar_content{
+	background-color: #aed8e3;
+	grid-column: 1/5;
+	padding: 5px;
+	z-index: 2;
+	border-radius: 5px;
+}
+
+
+.box_4{
+	background-color:#502d16;
+	grid-column: 5/6;
+	grid-row: 3;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	
+}
+.box_5{
+	background-color:#502d16;
+	grid-column: 2/6;
+	grid-row: 4;
+	border-radius: 5px;
+}
+.box_6{
+	background-color:#502d16;
+	grid-column: 2/6;
+	grid-row: 5;
+	border-radius: 5px;
+}
